@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_2" LaunchPart="xc7a100tcsg324-1" LaunchTime="1521988878">
-  <File Type="VDS-TIMING-PB" Name="Motherboard_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Motherboard_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="Motherboard.dcp"/>
+<GenRun Id="synth_2" LaunchPart="xc7a100tcsg324-1" LaunchTime="1531891895">
+  <File Type="PA-TCL" Name="VGA_Terminal_DEMO.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="VGA_Terminal_DEMO_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="VGA_Terminal_DEMO_reports.tcl"/>
+  <File Type="RDS-RDS" Name="VGA_Terminal_DEMO.vds"/>
+  <File Type="RDS-UTIL" Name="VGA_Terminal_DEMO_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="VGA_Terminal_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="Motherboard_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="Motherboard_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="Motherboard.vds"/>
-  <File Type="REPORTS-TCL" Name="Motherboard_reports.tcl"/>
-  <File Type="PA-TCL" Name="Motherboard.tcl"/>
+  <File Type="RDS-DCP" Name="VGA_Terminal_DEMO.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="VGA_Terminal_DEMO_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="VGA_Terminal_DEMO_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/AmbientLightSensor.v">
@@ -158,14 +158,14 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Motherboard"/>
+      <Option Name="TopModule" Val="VGA_Terminal_DEMO"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/Motherboard">
-    <File Path="$PSRCDIR/Motherboard/imports/new/Motherboard.xdc">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_VGA_DEMO">
+    <File Path="$PSRCDIR/constrs_VGA_DEMO/imports/new/VGA_demo.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PSRCDIR/Motherboard/new/Motherboard.xdc"/>
-        <Attr Name="ImportTime" Val="1520726886"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/constrs_VGA_DEMO/new/VGA_demo.xdc"/>
+        <Attr Name="ImportTime" Val="1519247382"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>

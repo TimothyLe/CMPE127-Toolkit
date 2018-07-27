@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2017.3 (64-bit)
-# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
-# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
-# Start of session at: Sun Mar 25 07:41:20 2018
-# Process ID: 21280
-# Current directory: /home/kammce/Documents/University/CMPE127/CMPE127-Toolkit/CMPE127-Toolkit.runs/synth_2
-# Command line: vivado -log Motherboard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Motherboard.tcl
-# Log file: /home/kammce/Documents/University/CMPE127/CMPE127-Toolkit/CMPE127-Toolkit.runs/synth_2/Motherboard.vds
-# Journal file: /home/kammce/Documents/University/CMPE127/CMPE127-Toolkit/CMPE127-Toolkit.runs/synth_2/vivado.jou
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 17 22:31:53 2018
+# Process ID: 1556
+# Current directory: C:/Users/Timothy_Le/Documents/Motherboard/CMPE127-Toolkit/CMPE127-Toolkit.runs/synth_2
+# Command line: vivado.exe -log VGA_Terminal_DEMO.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_Terminal_DEMO.tcl
+# Log file: C:/Users/Timothy_Le/Documents/Motherboard/CMPE127-Toolkit/CMPE127-Toolkit.runs/synth_2/VGA_Terminal_DEMO.vds
+# Journal file: C:/Users/Timothy_Le/Documents/Motherboard/CMPE127-Toolkit/CMPE127-Toolkit.runs/synth_2\vivado.jou
 #-----------------------------------------------------------
-source Motherboard.tcl -notrace
+source VGA_Terminal_DEMO.tcl -notrace
